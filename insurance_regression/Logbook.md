@@ -30,7 +30,7 @@ I split the training set into a training part and a validation part (80-20 split
 At this point, I realized that the evaluation metric for the Kaggle competition was RMSLE, whereas my model was training to improve R2. I applied the `log(x+1)` function to the ‘Premium Amount’ column and changed the model's scoring parameter to `neg_root_mean_squared_error`. This led to a considerable improvement in my score.
 
 ## Final Training
-I trained my model over the entire training set using an extensive grid search. This took around 5 hours and improved my ranking, enabling me to reach the top 35%.
+I trained my model over the entire training set using an extensive grid search. This took around 5 hours and improved my ranking, enabling me to reach the top 30%.
 
 ## Further Improvements
 ### 1. Creating New Features
