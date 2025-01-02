@@ -1,2 +1,6 @@
 insurance_regression/test.csv
 insurance_regression/train.csv
+insurance_regression/submissions
+Forecasting_Sticker_Sales/test.csv
+Forecasting_Sticker_Sales/train.csv
+Forecasting_Sticker_Sales/sample_submission.csv
